@@ -1,0 +1,13 @@
+[project]
+name = "api-user-token-auth"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.4.0",
+    "python-multipart>=0.0.20",
+    "uvicorn[standard]>=0.34.0",
+]
